@@ -309,7 +309,9 @@ main{
     transition: .4s;
 }
 
-
+#idImg2 img{
+    width: 70%;
+}
 
 
 @media screen and (max-width: 1280px){
