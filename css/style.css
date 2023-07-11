@@ -313,6 +313,19 @@ main{
     width: 70%;
 }
 
+#idImg2 {
+    display: none;
+}
+
+.elementToFadeIn {
+    animation: fadein 0.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+  100% { opacity: 1; }
+}
+
 
 @media screen and (max-width: 1280px){
     .main{
