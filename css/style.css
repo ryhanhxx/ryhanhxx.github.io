@@ -83,16 +83,16 @@ ul li a:hover{
     transform: rotate(360deg);
 }
 
-.container-img img{
+.container-contact img{
     width: 50px;
 }
 
-.container-img img:hover{
+.container-contact img:hover{
     transform: scale(1.1);
     transition: .4s;
 }
 
-.container-img{
+.container-contact{
     display: grid;
     grid-template-columns: 5rem 5rem 5rem;
 }
@@ -272,7 +272,6 @@ main{
 .artwork{
     width: 100%;
     padding: 100px 0;
-    
     color: white;
 }
 
@@ -334,7 +333,6 @@ main{
 @keyframes fadein {
   100% { opacity: 1; }
 }
-
 
 @media screen and (max-width: 1280px){
     .main{
@@ -411,9 +409,7 @@ main{
         margin-left: 13px;  
     }
 
-    .container img{
-        width: 80%;
-    }
+   
 }
 
 @media (min-width: 320px) and (max-width: 480px){
@@ -432,15 +428,16 @@ main{
     .about-text{
         width: 170px;
     }
-
+    
     .container{
         margin-left: 0;
         padding: 0;
         flex-direction: column;
+        align-items: center;
     }
 
     .container img{
-        width: 80%;
+        width: 90%;
     }
 
     .art-text{
@@ -463,8 +460,5 @@ main{
         top: 16%;
     }
 
-    .container-contact img{
-        width: 70px;
-    }
 }
 
