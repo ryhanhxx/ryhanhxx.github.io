@@ -436,6 +436,10 @@ main{
         align-items: center;
     }
 
+    .container-btn{
+        flex-direction: column;
+    }
+
     .container img{
         width: 90%;
     }
