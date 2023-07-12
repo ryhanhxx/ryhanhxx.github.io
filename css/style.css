@@ -384,6 +384,10 @@ main{
     .about-text{
         width: 360px;
     }
+    
+    .container-btn{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -434,10 +438,6 @@ main{
         padding: 0;
         flex-direction: column;
         align-items: center;
-    }
-
-    .container-btn{
-        flex-direction: column;
     }
 
     .container img{
