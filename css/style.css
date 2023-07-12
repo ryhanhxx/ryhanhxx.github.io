@@ -103,13 +103,13 @@ ul li a:hover{
 }
 
 .btn{
-  margin: 5px 30px;
+  margin: 5px 10px;
   background-color: transparent;  
   color: white;
   text-decoration: none;
   border: 2px solid var(--primaryColor);
   font-weight: bold;
-  padding: 8px 25px;
+  padding: 8px 15px;
   border-radius: 10px;
   transition: transform .4s;  
 }
