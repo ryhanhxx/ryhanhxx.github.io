@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: var(--title);
+}
+
+:root{
+    --primaryColor: #ED2B2A;
+    --secondaryColor: #fe5757;
+    --title: #fafafa;
+    --grey: #a0a0a0;
+    --fontSub: 'Josefin Sans';
+}
+
+.line{
+    background-color: var(--primaryColor);
+    padding: 1px 0px;
+    display: flex;
+    margin: 15px 0;
+}
+
+header{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px 7%;
+    background-image: url(../img/Background.jpg);
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a{
+    color: var(--title);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar a:hover{
+    color: var(--primaryColor);
+    transition: .4s;
+}
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    width: 100%;
+    padding: 9% 7%;
+    color: var(--title);
+}
+
+h1,h2 {
+    font-family: var(--fontSub);
+    font-size: 75px;
+}
+
+h3{
+    color: var(--grey);
+    font-family: var(--fontSub);
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+h3:hover{
+    color: var(--title);
+    transition: .4s;
+}
+
+h4{
+    color: var(--primaryColor);
+    margin: 7px 0;
+    font-weight: lighter;
+}
+
+h5{
+    font-size: 24px;
+    font-family: var(--fontSub);
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+span{
+    color: var(--secondaryColor);
+}
+
+.btn{
+    border: 2px solid var(--primaryColor);
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--primaryColor);
+    transition: .4s;
+}
+
+main{
+    background-color: black;
+}
+
+#about, #experience{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.about-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 70%;
+}
+
+.about img{
+    width: 35%;
+    filter: grayscale(80%);
+}
+
+.logos{
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: #000000;
+    white-space: nowrap;
+}
+
+.logos-slide{
+    display: inline-block;
+    animation: 50s slide infinite linear;
+}
+
+.logos-slide img{
+    height: 60px;
+    margin: 0 50px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }to{
+        transform: translateX(-100%);
+    }
+}
+
+.about aside, .exp-text{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.exp-text li{
+    list-style: circle;
+    margin: 5px 15px;
+}
+
+.exp-text h2{
+    text-align: center;
+}
+
+.exp-text h6{
+    font-family: var(--fontSub);
+    font-size: 18px;
+}
+
+#artwork{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-btn button{
+    margin: 10px 7px;
+}
+
+.card{
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 1%;
+    font-size: 14px;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: #353535;
+    transition: .4s;
+}
+
+.card img{
+    width: 100%;
+}
+
+.art-text{
+    width: 70%;
+}
+
+.art-text h7{
+    font-family: var(--fontSub);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.art-text p{
+    font-weight: lighter;
+    font-size: 12px;
+    color: var(--grey);
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+}
+
+.elementToFadeIn {
+    animation: fadein 0.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100% { opacity: 1; }
+  }
+
+#idImg1 img, #idImg2 img{
+    margin: 7px 7px;
+    border-radius: 3px;
+    width: 30%;
+    filter: grayscale(80%);
+}
+
+#idImg1 img:hover, #idImg2 img:hover{
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+#idImg3{
+    display: none;
+}
+
+.contact-text{
+    font-size: 14px;
+    width: 40%;
+}
+
+.contact-text img{
+    width: 7%;
+    margin: 10px 7px;
+}
+
+.contact-text .line{
+    margin: 10px 40%;
+}
+
+footer{
+    background-color: #252525;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    text-align: center;
+}
+
+.footer h4{
+    color: var(--title);
+}
+
+.footer img{
+    width: 15%;
+    margin: auto 3px;
+}
+
+#contact{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 100px 0;
+}
+
+@media (min-width: 481px) and (max-width: 920px){
+    .navbar a{
+        font-size: 14px;
+    }
+
+    .content{
+        padding: 30% 10%;
+    }
+
+    .container-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer img{
+        width: 10%;
+    }
+
+    .about img{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    h2{
+        font-size: 38px;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+    .navbar, .about img{
+        display: none;
+    }
+
+    header img{
+        margin: 0 auto;
+    }
+
+    .content{
+        margin: 50px 0;
+    }
+
+    .exp-text{
+        width: 70%;
+    }
+
+    .container, .container-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #artwork{
+        padding: 0 0;
+    }
+
+    #idImg1 img, #idImg2 img{
+        width: 80%;
+    }
+
+    .container-btn{
+        display: flex;
+        justify-content: center;
+        margin: 7px 0;
+        
+    }
+
+    .container-btn button{
+        padding: 3px 25px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card{
+        padding: 15px;
+        margin: 10px 3px;
+    }
+
+    .card img{
+        width: 200px;
+    }
+
+    .contact-text{
+        width: 60%;
+    }
+
+    .contact-text img{
+        width: 15%;
+    }
+
+}
