@@ -3,7 +3,7 @@ function toggleImageDisplayUi() {
     var y = document.getElementById("idImg2");
     var z = document.getElementById("idImg3");
 
-    if (x.style.display === "none") {
+    if (x.style.display === "none" || y.style.display === "none") {
         
     } else {
         y.style.display = "none";
