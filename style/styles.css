@@ -254,11 +254,11 @@ main{
     100% { opacity: 1; }
   }
 
-#idImg1, #idImg2 {
+#idImg3, #idImg4 {
     display: none;
 }
 
-#idImg1 img, #idImg2 img{
+#idImg3 img, #idImg4 img{
     margin: 7px 7px;
     border-radius: 3px;
     width: 30%;
@@ -268,10 +268,6 @@ main{
 #idImg1 img:hover, #idImg2 img:hover{
     transition: .4s;
     filter: grayscale(0%);
-}
-
-#idImg3{
-    /* display: none; */
 }
 
 .contact-text{
