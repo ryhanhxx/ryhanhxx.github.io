@@ -265,7 +265,7 @@ main{
     filter: grayscale(80%);
 }
 
-#idImg1 img:hover, #idImg2 img:hover{
+#idImg3 img:hover, #idImg4 img:hover{
     transition: .4s;
     filter: grayscale(0%);
 }
