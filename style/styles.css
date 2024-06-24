@@ -371,7 +371,11 @@ footer{
     }
 
     #idImg1 img, #idImg2 img{
-        width: 80%;
+        width: 100%;
+    }
+
+    #idImg3 img, #idImg4 img{
+        width: 100%;
     }
 
     .container-btn{
