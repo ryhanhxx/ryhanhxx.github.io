@@ -107,6 +107,7 @@ span{
     padding: 10px 20px;
     background-color: transparent;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .btn:hover{
@@ -198,7 +199,7 @@ main{
 }
 
 .container-btn button{
-    margin: 10px 7px;
+    margin: 6px;
 }
 
 .card{
@@ -254,7 +255,7 @@ main{
     100% { opacity: 1; }
   }
 
-#idImg3, #idImg4 {
+#idImg3, #idImg4, #idImg5 {
     display: none;
 }
 
@@ -299,19 +300,27 @@ footer{
 
 .footer h4{
     color: var(--title);
+    font-size: 14px;
+    width: 80%;
+    text-align: start;
 }
 
 .footer img{
-    width: 15%;
+    width: 18%;
     margin: auto 3px;
 }
 
 #contact{
-    display: flex; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
     padding: 100px 0;
+}
+
+#contact .btn{
+    margin: 1%;
 }
 
 @media (min-width: 481px) and (max-width: 920px){
@@ -328,7 +337,7 @@ footer{
     }
 
     .footer img{
-        width: 10%;
+        width: 18%;
     }
 
     .about img{
@@ -337,6 +346,7 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+
     h2{
         font-size: 38px;
     }
@@ -380,13 +390,14 @@ footer{
 
     .container-btn{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: 7px 0;
         
     }
 
     .container-btn button{
-        padding: 3px 25px;
+        padding: 8px;
         align-items: center;
         text-align: center;
     }
