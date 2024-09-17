@@ -182,7 +182,7 @@ main{
 .card-2{
     background-color: #252525;
     display: flex;
-    margin: 16px 16%;
+    margin: 10px 16%;
     flex-direction: row;
     padding: 20px 20px;
     border-radius: 8px;
