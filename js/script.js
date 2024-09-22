@@ -3,6 +3,7 @@ function toggleImageDisplayUi() {
     var y = document.getElementById("idImg2");
     var z = document.getElementById("idImg3");
     var x1 = document.getElementById("idImg4");
+    var x2 = document.getElementById("idImg5");
 
     // if (x.style.display === "none" || y.style.display === "none") {
     if (z.style.display === "none"){ 
@@ -12,6 +13,7 @@ function toggleImageDisplayUi() {
         x.style.display = "flex";
         z.style.display = "none";
         x1.style.display = "none";
+        x2.style.display = "none";
     }
 }
 
@@ -20,7 +22,8 @@ function toggleImageDisplayVec(){
     var y = document.getElementById("idImg2");
     var z = document.getElementById("idImg3");
     var x1 = document.getElementById("idImg4");
-
+    var x2 = document.getElementById("idImg5");
+    
     if (x.style.display === "none") {
         
     } else {
@@ -28,6 +31,7 @@ function toggleImageDisplayVec(){
         x.style.display = "none";
         z.style.display = "flex";
         x1.style.display = "flex";
+        x2.style.display = "flex";
     }
 }
 
