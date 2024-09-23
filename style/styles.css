@@ -296,7 +296,12 @@ main{
     display: none;
 }
 
-#idImg3 img, #idImg4 img, #idImg5 img{
+#idImg5 img{
+    width: 100%;
+    filter: grayscale(80%);
+}
+
+#idImg3 img, #idImg4 img{
     margin: 7px 7px;
     border-radius: 3px;
     width: 32%;
