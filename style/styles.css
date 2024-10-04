@@ -409,6 +409,9 @@ footer{
         width: 30%;
     }
 
+    .contact-text {
+        width: 68%;
+    }
 
 }
 
@@ -457,6 +460,26 @@ footer{
 
     #idImg3 img, #idImg4 img, #idImg5 img{
         width: 100%;
+    }
+
+    .logos-slide{
+        display: none;
+    }
+
+    header{
+        padding: 0 7%;
+    }
+
+    h1{
+        font-size: 65px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        margin: 14px 0;
     }
 
     .container-btn{
