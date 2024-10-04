@@ -451,16 +451,8 @@ footer{
         align-items: center;
     }
 
-    #artwork{
-        padding: 0 0;
-    }
-
-    #project {
-        padding: 0 0
-    }
-
-    #idImg1 img, #idImg2 img{
-        width: 100%;
+    #home, #artwork,  #project, #about, #contact{
+        padding: 50px 0;
     }
 
     #idImg3 img, #idImg4 img, #idImg5 img{
