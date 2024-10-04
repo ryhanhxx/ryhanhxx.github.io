@@ -136,8 +136,14 @@ main{
 }
 
 .about img{
-    width: 35%;
+    border-radius: 8px;
+    width: 32%;
     filter: grayscale(80%);
+}
+
+.about img:hover{
+    width: 32%;
+    filter: grayscale(0%);
 }
 
 .logos{
