@@ -144,7 +144,7 @@ main{
 .about img:hover{
     width: 32%;
     filter: grayscale(0%);
-    transition: .4s;
+    transition: .5s;
 }
 
 .logos{
