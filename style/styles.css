@@ -399,6 +399,17 @@ footer{
     .about img{
         display: none;
     }
+
+    .card-2{
+        margin: 10px 16px;
+        flex-direction: row;
+    }
+
+    .card-2 img{
+        width: 30%;
+    }
+
+
 }
 
 @media (min-width: 320px) and (max-width: 480px){
