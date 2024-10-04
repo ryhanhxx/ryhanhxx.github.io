@@ -188,6 +188,11 @@ main{
     border-radius: 8px;
 }
 
+.card-2:hover{
+    background-color: #353535;
+    transition: .4s;
+}
+
 .card-2 img{
     width: 18%;
 }
