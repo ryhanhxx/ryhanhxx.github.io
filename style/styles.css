@@ -347,23 +347,19 @@ footer{
 }
 
 .footer{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1%;
     text-align: center;
 }
 
-.footer h4{
-    color: var(--title);
-    font-size: 14px;
-    width: 80%;
-    text-align: start;
+.footer img{
+    width: 42%;
+    margin: auto 3px;
 }
 
-.footer img{
-    width: 18%;
-    margin: auto 3px;
+.container-contact{
+    display: flex;
+    justify-content: center;
 }
 
 #contact{
@@ -393,7 +389,7 @@ footer{
     }
 
     .footer img{
-        width: 18%;
+        width: 42%;
     }
 
     .about img{
@@ -521,6 +517,11 @@ footer{
 
     .contact-text img{
         width: 15%;
+    }
+
+    .footer img{
+        width: 66%;
+        margin: auto 3px;
     }
 
     .footer{
