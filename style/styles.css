@@ -41,6 +41,7 @@ header{
 .navbar a{
     color: var(--title);
     font-family: var(--fontSub);
+    font-size: 14px;
 }
 
 .navbar a:hover{
@@ -341,26 +342,45 @@ main{
     margin: 16px 40%;
 }
 
-footer{
+/* footer{
     background-color: #141414;
     width: 100%;
-}
+} */
 
-.footer{
+footer {
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 14px;
+  }
+
+/* .footer{
     align-items: center;
     padding: 1%;
     text-align: center;
+} */
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.8rem;
+  }
+
+footer p {
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 14px;
+    font-family: var(--fontSub);
 }
 
-.footer img{
+/* .footer img{
     width: 42%;
     margin: auto 3px;
-}
+} */
 
-.container-contact{
+/* .container-contact{
     display: flex;
     justify-content: center;
-}
+} */
 
 #contact{
     display: flex;
